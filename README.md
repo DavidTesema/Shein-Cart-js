@@ -1,1 +1,1 @@
-# Shein-Cart--js
+# Shein-Cart-js
