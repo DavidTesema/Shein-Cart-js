@@ -1,0 +1,31 @@
+.navbar-container .left-container span {
+  font-size: 20px;
+  color: #83b293;
+}
+
+.navbar-container .left-container span .fa-bag-shopping {
+  color: white;
+  background-color: #83b293;
+  border-radius: 50%;
+}
+
+.main-container .t-shirt-one-container img {
+  width: 100px;
+}
+
+.main-container .t-shirt-two-container img {
+  width: 100px;
+}
+
+.main-container .t-shirt-three-container img {
+  width: 100px;
+}
+
+.main-container .right-container button {
+  width: 100%;
+}
+
+.main-container .right-container .accept-container img {
+  width: 50px;
+}
+/*# sourceMappingURL=style.css.map */

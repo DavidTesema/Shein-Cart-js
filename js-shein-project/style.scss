@@ -1,0 +1,45 @@
+// NAV BAR STYLE
+.navbar-container {
+  .left-container {
+    span {
+      font-size: 20px;
+      color: rgb(131, 178, 147);
+      .fa-bag-shopping {
+        color: white;
+        background-color: rgb(131, 178, 147);
+        border-radius: 50%;
+      }
+    }
+  }
+}
+// MAIN STYLE 
+.main-container {
+    // LEFT MAIN CONTAINER 
+  .t-shirt-one-container {
+    display: block;
+    img {
+      width: 100px;
+    }
+  }
+  .t-shirt-two-container {
+    img {
+      width: 100px;
+    }
+  }
+  .t-shirt-three-container {
+    img {
+      width: 100px;
+    }
+  }
+//   RIGHT MAIN CONTAINER  
+  .right-container {
+      button{
+          width: 100%;
+      }
+    .accept-container {
+      img {
+        width: 50px;
+      }
+    }
+  }
+}

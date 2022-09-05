@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- NAV BAR CONTAINER -->
+    <nav class="navbar-container col-12 container navbar">
+        <!-- LEFT SIDE CONTAINER  -->
+        <div class="left-container d-flex align-items-center col-8">
+            <h1>
+                SHEIN
+            </h1>
+            <span class=" d-none d-md-flex"><i class="fa-solid fa-bag-shopping mx-2 p-2"></i>SECURE CHECKOUT</span>
+        </div>
+        <!-- RIGHT SIDE CONTAINER  -->
+        <div class="right-container col-4 d-flex justify-content-end">
+            <a href="#" class="text-decoration-none text-secondary d-none d-md-block">CONTINUE SHOPPING &#10148;</a>
+            <!-- BARS ICON -->
+            <i class="fa-solid fa-bars d-md-none"></i>
+        </div>
+    </nav>
+    <!-- START HRADER CONTAINER  -->
+    <header class="col-12 d-flex justify-content-center">
+        <p><span class="text-secondary">Shopping Bag</span> > Place Order Pay Order Complete</p>
+    </header>
+    <!-- START MAIN CONTAINER  -->
+    <main class="main-container col-12 container d-md-flex">
+        <!-- LEFT MAIN CONTAINER  -->
+        <div class="left-container col-12 col-md-8">
+            <!-- TITLE : item summary -->
+            <div class="item-summary-container col-12">
+                <h2>Item Summary</h2>
+                <div class="d-flex">
+                    <p class="col-6">Item</p>
+                    <p class="col-2">Pric</p>
+                    <p class="col-2">Qty </p>
+                    <p class="col-2">Total</p>
+                </div>
+            </div>
+            <hr>
+            <!-- BOX ONE : First T Shirt -->
+            <div class="t-shirt-one-container col-12 d-flex justify-content-evenly ">
+                <!-- DIV 1 - img T shirt left container  -->
+                <div class="img-container col-2">
+                    <img src="assest/t.one.new.webp" class="img-fluid" alt="T-shirt">
+                </div>
+                <!-- DIV 2 - TEXT  right container -->
+                <div class="text-container col-8">
+                    <!-- top Paragraph -->
+                    <p class="fs-6 col-12">SHEIN Men Tropical Print Patched Pocket Shirt</p>
+                    <!-- div middele text  -->
+                    <div class=" col-11 d-flex justify-content-between">
+                        <!-- SELECT : size -->
+                        <select id="" class="col-1">
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                            <option value="">XL</option>
+                        </select>
+                        <p class="col-2 text-center">30$<span class="text-decoration-line-through">49.90$</span></p>
+                        <input class="col-1" id="input-one" type="number" value="1" min="0" max="9">
+                        <h5 id="price-one" class="col- text-end"> 30</h5>
+                        <!-- <button id="btn-t-shirt-one" class="btn btn-outline-danger">Delete</button> -->
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- BOX TWO : Second T Shirt  -->
+            <div class="t-shirt-two-container d-flex justify-content-evenly">
+                <!-- DIV 1 - img T shirt  -->
+                <div class="img-container col-2">
+                    <img src="assest/t.tow.webp" class="img-fluid" alt="T-shirt">
+                </div>
+                <!-- DIV 2 - TEXT  -->
+                <div class="text-container col-8">
+                    <!-- top Paragraph -->
+                    <p class="fs-6 col-12">Men Plaid Patched Pocket Shirt Without Tee</p>
+                    <!-- div middele text  -->
+                    <div class=" col-11 d-flex justify-content-between">
+                        <!-- SELECT : size -->
+                        <select id="" class="col-1">
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                            <option value="">XL</option>
+                        </select>
+                        <p class="col-2 text-center">60$<span class="text-decoration-line-through">79.90$</span></p>
+                        <input class="col-1" id="input-two" type="number" value="1" min="0" max="9">
+                        <h5 class="col- text-end"> 60</h5>
+                        <!-- <button id="btn-t-shirt-tow" class="btn btn-outline-danger">Delete</button> -->
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!-- BOX THREE : Third T Shirt -->
+            <div class="t-shirt-three-container d-flex justify-content-evenly">
+                <!-- DIV 1 - img T shirt  -->
+                <div class="img-container col-2">
+                    <img src="assest/t.three.webp" class="img-fluid" alt="T-shirt">
+                </div>
+                <!-- DIV 2 - TEXT  -->
+                <div class="text-container col-8">
+                    <!-- top Paragraph -->
+                    <p class="fs-6 col-12">Men Tropical Print One Pocket Front Shirt</p>
+                    <!-- div middele text  -->
+                    <div class=" col-11 d-flex justify-content-between">
+                        <!-- SELECT : size -->
+                        <select id="" class="col-1">
+                            <option value="">S</option>
+                            <option value="">M</option>
+                            <option value="">L</option>
+                            <option value="">XL</option>
+                        </select>
+                        <p class="col-2 text-center">35$<span class="text-decoration-line-through">59.90$</span></p>
+                        <input id="input-three" class="col-1" type="number" value="1" min="0" max="9">
+                        <h5 class="col- text-end"> 35</h5>
+                        <!-- <button id="btn-t-shirt-three" class="btn btn-outline-danger">Delete</button> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- RIGHT MAIN CONTAINER  -->
+        <div class="right-container text-center text-md-start col-12 col-md-4 p-4">
+            <!-- titl  -->
+            <h2>Order Summary</h2>
+            <!-- totle price  -->
+            <div class="d-flex justify-content-between align-items-center mt-2">
+                <p>Subtotal</p>
+                <h3>0$</h3>
+            </div>
+            <!-- btn right container  -->
+            <button id="btn-id" class="btn btn-dark">CHECKOUT SECURELY NOW</button>
+            <p class="text-secondary mt-2">Apply a Coupon Code, SHEIN Points on the next step</p>
+            <!-- DIV : card  -->
+            <div class="accept-container">
+                <h4>We Accept</h4>
+                <img src="assest/Visa.png" alt="img">
+                <img class="ms-2" src="assest/maestro.png" alt="img">
+                <img src="assest/mastercard.png" alt="img">
+            </div>
+        </div>
+    </main>
+</body>
+<script src="app.js"></script>
+
+</html>
